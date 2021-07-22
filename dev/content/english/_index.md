@@ -24,7 +24,7 @@ partner:
 
 ################################ Features ###############################
 feature:
-  enable : true
+  enable : false
   subtitle : "fetures"
   title : "exclusive features"
   feature_item:
@@ -58,22 +58,10 @@ about:
         enable : true
         label : "read more"
         link : "about"
-        
-    # about item loop
-    - image : "images/about/about-2.png"
-      subtitle : "about agico"
-      title : "Rehenderit volupate velit proident sunt culpa"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
-              exercitation ullamco laboris nisi aliquip commodo consequat. duis aute."
-      button:
-        enable : true
-        label : "read more"
-        link : "about"
 
 ############################ video ###############################
 promo_video:
-  enable : true
+  enable : false
   video_thumbnail : "images/check-video.png"
   video_link : "https://www.youtube.com/watch?v=VufDd-QL1c0"
   subtitle : "Check Video"
@@ -85,7 +73,7 @@ promo_video:
 
 # testimonial
 testimonial:
-  enable : true
+  enable : false
   subtitle : "testimonial"
   title : "What Our Clients Says?"
   testimonial_item:
@@ -126,7 +114,7 @@ testimonial:
 
 ############################## Download ###########################
 download:
-  enable : true
+  enable : false
   title : "Download Agico Now"
   image : "images/download-mobile-img.jpg"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation."
@@ -140,7 +128,7 @@ download:
     
 ############################## pricing ###########################
 pricing:
-  enable : true
+  enable : false
   section : "pricing"
   show_items : 3
   # pricing item comes from "content/*/pricing.md"

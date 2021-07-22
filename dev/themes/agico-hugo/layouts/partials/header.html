@@ -9,13 +9,13 @@
       </button>
 
       <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav mx-auto">
+        <ul class="navbar-nav mx-auto d-none">
           <li class="nav-item">
             <a class="nav-link text-white text-capitalize" href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.Home }}</a>
           </li>
           {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown d-none">
             <a class="nav-link text-white text-capitalize dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">
               {{ .Name }}
@@ -27,7 +27,7 @@
             </div>
           </li>
           {{ else }}
-          <li class="nav-item">
+          <li class="nav-item d-none">
             <a class="nav-link text-white text-capitalize" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
           </li>
           {{ end }}
@@ -36,7 +36,7 @@
 
         <!-- Language List -->
         {{ if .IsTranslated }}
-        <select id="select-language" onchange="location = this.value;">
+        <select class="d-none" id="select-language" onchange="location = this.value;">
           {{ $siteLanguages := .Site.Languages}}
           {{ $pageLang := .Page.Lang}}
           {{ range .Page.AllTranslations }}
@@ -57,7 +57,7 @@
 
         {{ if .Site.Params.navigation_button.enable }}
         {{ "<!-- get start btn -->" | safeHTML }}
-        <a href="{{ .Site.Params.navigation_button.link | absURL }}" class="btn btn-outline-primary text-white ml-lg-3">{{ .Site.Params.navigation_button.label }}</a>
+        <a href="{{ .Site.Params.navigation_button.link | absURL }}" class="btn btn-outline-primary text-white ml-lg-3 d-none">{{ .Site.Params.navigation_button.label }}</a>
         {{ end }}
       </div>
     </nav>
