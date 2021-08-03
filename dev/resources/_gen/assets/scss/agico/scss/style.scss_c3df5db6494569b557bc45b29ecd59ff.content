@@ -79,7 +79,7 @@ h6,
     left: 0;
     width: 102%;
     height: 100%;
-    background: linear-gradient(45deg, #00a8f4 0%, #02d1a1 100%);
+    background: linear-gradient(45deg, #2a2a2a 0%, #02d1a1 100%);
     z-index: -1;
     transition: ease 0.3s; }
 
@@ -98,7 +98,7 @@ h6,
   transition: none; }
   .btn-light:hover {
     color: #fff;
-    background: linear-gradient(45deg, #00a8f4 0%, #02d1a1 100%); }
+    background: linear-gradient(45deg, #2a2a2a 0%, #02d1a1 100%); }
 
 .btn-outline-primary {
   color: #00e0d8;
@@ -120,7 +120,7 @@ h6,
     left: -102%;
     width: 102%;
     height: 100%;
-    background: linear-gradient(45deg, #00a8f4 0%, #02d1a1 100%);
+    background: linear-gradient(45deg, #2a2a2a 0%, #02d1a1 100%);
     z-index: -1;
     transition: ease 0.3s; }
 
@@ -181,10 +181,10 @@ section {
   background: linear-gradient(134deg, #00a4db 0%, #00269e 100%); }
 
 .bg-gradient-secondary {
-  background: linear-gradient(80deg, #0030cc 0%, #00a4db 100%); }
+  background: linear-gradient(80deg, #F5CC08 0%, #00a4db 100%); }
 
 .btn-primary-gradient {
-  background: linear-gradient(45deg, #00a8f4 0%, #02d1a1 100%); }
+  background: linear-gradient(45deg, #2a2a2a 0%, #02d1a1 100%); }
 
 .bg-gradient-purple {
   background: linear-gradient(180deg, #625aff 20%, #b025ef 100%); }
@@ -557,7 +557,7 @@ section {
       width: 100%;
       left: 0;
       top: 0;
-      background-image: linear-gradient(80deg, #0030cc 0%, #00a4db 100%);
+      background-image: linear-gradient(80deg, #F5CC08 0%, #00a4db 100%);
       content: "";
       opacity: .9; }
     .page-title-overlay::after {
@@ -712,10 +712,10 @@ textarea.form-control {
   padding: 45px 0; }
   @media (max-width: 991px) {
     .naviagtion {
-      background: linear-gradient(80deg, #0030cc 0%, #00a4db 100%);
+      background: linear-gradient(80deg, #F5CC08 0%, #00a4db 100%);
       padding: 15px 0; } }
   .naviagtion.nav-bg {
-    background: linear-gradient(80deg, #0030cc 0%, #00a4db 100%);
+    background: linear-gradient(80deg, #F5CC08 0%, #00a4db 100%);
     padding: 15px 0; }
   .naviagtion.naviagtion-white.nav-bg {
     background: #fff;
@@ -770,7 +770,7 @@ textarea.form-control {
   transition: .3s ease;
   opacity: 0;
   transform: scale(0.8);
-  background: linear-gradient(80deg, #0030cc 0%, #00a4db 100%);
+  background: linear-gradient(80deg, #F5CC08 0%, #00a4db 100%);
   border-radius: 10px; }
   @media (max-width: 991px) {
     .navbar .dropdown-menu {
@@ -971,7 +971,7 @@ textarea.form-control {
   bottom: 0;
   transform: translateX(-50%);
   border-radius: 45px;
-  background: linear-gradient(80deg, #0030cc 0%, #00a4db 100%); }
+  background: linear-gradient(80deg, #F5CC08 0%, #00a4db 100%); }
 
 .icon-quote {
   border: 4px solid #e5e6e8;
@@ -1142,7 +1142,7 @@ textarea.form-control {
   display: block;
   border-radius: 40px; }
   .tag-list li a:hover {
-    background: linear-gradient(45deg, #00a8f4 0%, #02d1a1 100%);
+    background: linear-gradient(45deg, #2a2a2a 0%, #02d1a1 100%);
     color: #fff !important; }
 
 /* sidebar */
@@ -1162,7 +1162,7 @@ textarea.form-control {
   box-shadow: 0px 5px 15px 0px rgba(51, 77, 128, 0.12); }
 
 .pagination .page-item.active .page-link {
-  background: linear-gradient(45deg, #00a8f4 0%, #02d1a1 100%);
+  background: linear-gradient(45deg, #2a2a2a 0%, #02d1a1 100%);
   color: #fff;
   box-shadow: 0px 15px 15px 0px rgba(8, 18, 109, 0.1); }
 
@@ -1173,7 +1173,7 @@ textarea.form-control {
 blockquote {
   box-shadow: inset 0px 7px 0px 0px rgba(255, 255, 255, 0.596);
   padding: 34px 40px 37px 40px;
-  background-image: linear-gradient(80deg, #0030cc 0%, #00a4db 100%);
+  background-image: linear-gradient(80deg, #F5CC08 0%, #00a4db 100%);
   border-radius: 10px;
   margin: 40px 0; }
   blockquote p {
@@ -1214,7 +1214,7 @@ form textarea {
   width: 100%; }
   @media (max-width: 991px) {
     .subscription {
-      background: linear-gradient(80deg, #0030cc 0%, #00a4db 100%);
+      background: linear-gradient(80deg, #F5CC08 0%, #00a4db 100%);
       position: static; } }
   .subscription.bg-white {
     background: none !important; }
@@ -1239,7 +1239,7 @@ form textarea {
       width: 100%;
       height: 200px;
       left: 0;
-      background: linear-gradient(80deg, #0030cc 0%, #00a4db 100%);
+      background: linear-gradient(80deg, #2a2a2a 0%, #00a4db 100%);
       top: 50%;
       transform: translateY(-50%); }
       @media (max-width: 991px) {

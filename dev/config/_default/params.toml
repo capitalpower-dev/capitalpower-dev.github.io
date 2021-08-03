@@ -5,15 +5,15 @@ favicon_32x32 = "images/favicon.ico"
 favicon_16x16 = "images/favicon.ico"
 apple_touch_icon = "images/favicon.ico"
 # logo
-logo = "images/logo.png"
+logo = "images/logo-capital-power.png"
 # OpenGraph / Twitter Card metadata
 description = "This is meta description"
-author = "Themefisher"
-image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+author = "Capital Power"
+image = "images/logo-capital-power.png" # this image will be used as fallback if a page has no image of its own
 # contact info
-address = "9567 Turner Trace Apt. 466 North Willie, BC C3G8A4"
+address = "Av. Américo Vespucio Norte 2700, of 901, Vitacura, Santiago de Chile"
 mobile = "+211234565523"
-email = "info@agico.com"
+email = "contact@capitalpower.cl"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
@@ -51,15 +51,15 @@ gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqO
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
 map_marker = "images/marker.png"
-map_marker_label = "Agico"
+map_marker_label = "Capital Power"
 map_zoom = 17
 
 # cookies
 [cookies]
 enable = true
 expire_days = 2
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
-button = "I Accept"
+content = "Este sitio utiliza cookies. Si acepta o continúa navegando, consideramos que acepta su uso."
+button = "Acepto"
 
 ############################# social site ########################
 [[social]]

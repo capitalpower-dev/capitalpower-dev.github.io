@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1,
 .h1 {
-  font-size: 60px; }
+  font-size: 50px; }
 
 h2,
 .h2 {
@@ -71,7 +71,7 @@ h6,
 
 .btn-primary {
   border: 0;
-  color: #fff; }
+  color: #000000; }
   .btn-primary:after {
     content: '';
     position: absolute;
@@ -79,7 +79,7 @@ h6,
     left: 0;
     width: 102%;
     height: 100%;
-    background: linear-gradient(45deg, #00a8f4 0%, #02d1a1 100%);
+    background: #F5CC08;
     z-index: -1;
     transition: ease 0.3s; }
 
@@ -178,7 +178,7 @@ section {
   color: #00e0d8 !important; }
 
 .bg-gradient-primary {
-  background: linear-gradient(134deg, #00a4db 0%, #00269e 100%); }
+  background: linear-gradient(134deg, #fff 0%, #2a2a2a 100%); }
 
 .bg-gradient-secondary {
   background: linear-gradient(80deg, #0030cc 0%, #00a4db 100%); }
@@ -241,7 +241,7 @@ section {
     width: 100%;
     left: 0;
     top: 0;
-    background-image: linear-gradient(134deg, #00a4db 0%, #00269e 100%);
+    background-image: linear-gradient(134deg, #fff 0%, #2a2a2a 100%);
     content: "";
     opacity: .7;
     border-radius: inherit; }
@@ -715,8 +715,8 @@ textarea.form-control {
       background: linear-gradient(80deg, #0030cc 0%, #00a4db 100%);
       padding: 15px 0; } }
   .naviagtion.nav-bg {
-    background: linear-gradient(80deg, #0030cc 0%, #00a4db 100%);
-    padding: 15px 0; }
+    background: #383838;
+    padding: 20px 0; }
   .naviagtion.naviagtion-white.nav-bg {
     background: #fff;
     box-shadow: 0px 10px 20px 0px rgba(0, 141, 236, 0.1); }
@@ -831,14 +831,17 @@ textarea.form-control {
   opacity: 0.07;
   top: 20px;
   left: 0;
-  font-size: 200px;
+  font-size: 100px;
   font-weight: 600;
   z-index: -1;
   color: inherit; }
   @media (max-width: 575px) {
     .watermark {
       top: 0;
-      font-size: 120px; } }
+      font-size: 60px; } }
+.btn-color-cp {
+  background-color: #2a2a2a !important; }
+
 .watermark-sm {
   position: absolute;
   opacity: 0.07;
@@ -932,7 +935,7 @@ textarea.form-control {
     top: 12px; }
 
 .card-active {
-  background: linear-gradient(134deg, #00a4db 0%, #00269e 100%); }
+  background: linear-gradient(134deg, #fff 0%, #2a2a2a 100%); }
   .card-active * {
     color: #fff; }
 
@@ -944,7 +947,7 @@ textarea.form-control {
   width: 100%;
   height: 100%;
   border-radius: inherit;
-  background: linear-gradient(134deg, #00a4db 0%, #00269e 100%);
+  background: linear-gradient(134deg, #fff 0%, #2a2a2a 100%);
   z-index: -1;
   opacity: 0; }
 
@@ -1100,7 +1103,7 @@ textarea.form-control {
       height: 0;
       width: 100%;
       transition: .5s ease;
-      background: linear-gradient(134deg, #00a4db 0%, #00269e 100%);
+      background: linear-gradient(134deg, #fff 0%, #2a2a2a 100%);
       bottom: 0;
       border-radius: 10px;
       left: 0;
@@ -1239,7 +1242,7 @@ form textarea {
       width: 100%;
       height: 200px;
       left: 0;
-      background: linear-gradient(80deg, #0030cc 0%, #00a4db 100%);
+      background: #F5CC08;
       top: 50%;
       transform: translateY(-50%); }
       @media (max-width: 991px) {

@@ -2,14 +2,14 @@
 ############################### Banner #################################
 banner:
   enable : true
-  bg_image : "images/background/banner.png"
-  title : "Build Your Business Together"
-  watermark : "Build"
-  content : "Cupidatat non proident sunt culpa qui officia deserunt mollit <br> anim idest laborum sed ut perspiciatis."
+  bg_image : "images/background/capital-power-chile.png"
+  title : "Reduzca su factura de energía"
+  watermark : "Capital Power"
+  content : "Te mostraremos cómo"
   image : "images/banner/banner-1.png"
   button:
     enable : true
-    label : "Get Agico"
+    label : "Saber más"
     link : "#"
 
 ############################## Partners #################################
