@@ -41,8 +41,8 @@ link = "#"
 [subscription]
 enable = true
 # mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+mailchimp_form_action = "https://capitalpower.us5.list-manage.com/subscribe/post?u=61def603f98cfdcf5528ef732&amp;id=db991a80d7" # replace this url with yours
+mailchimp_form_name = "b_61def603f98cfdcf5528ef732_db991a80d7" # replace this code with yours
 
 # google map
 [gmap]
@@ -62,27 +62,27 @@ content = "Este sitio utiliza cookies. Si acepta o continúa navegando, consider
 button = "Acepto"
 
 ############################# social site ########################
-[[social]]
-title = "facebook"
-icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+## [[social]]
+## title = "facebook"
+## icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
+## link = "#"
 
-[[social]]
-title = "twitter"
-icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+## [[social]]
+## title = "twitter"
+## icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+## link = "#"
 
-[[social]]
-title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+## [[social]]
+## title = "instagram"
+## icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+## link = "#"
 
-[[social]]
-title = "github"
-icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+## [[social]]
+## title = "github"
+## icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+## link = "#"
 
-[[social]]
-title = "linkedin"
-icon = "fab fa-linkedin-in" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+## [[social]]
+## title = "linkedin"
+## icon = "fab fa-linkedin-in" # fontawesome icon pack : https://fontawesome.com/icons/
+## link = "#"

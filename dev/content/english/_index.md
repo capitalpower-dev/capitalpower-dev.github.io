@@ -16,46 +16,48 @@ banner:
 partner:
   enable : true
   partner_logo:
-  - "images/partner/client-logo-1.png"
-  - "images/partner/client-logo-2.png"
-  - "images/partner/client-logo-3.png"
-  - "images/partner/client-logo-4.png"
-  - "images/partner/client-logo-5.png"
+  - "images/partner/engie.png"
+  - "images/partner/colbun.png"
+  - "images/partner/cerrodominador.png"
+  - "images/partner/ame.png"
+  - "images/partner/edf.png"
+  - "images/partner/enel.png"
+  - "images/partner/pacifichydro.png"
+  - "images/partner/gpg.png"
 
 ################################ Features ###############################
 feature:
-  enable : false
-  subtitle : "fetures"
-  title : "exclusive features"
+  enable : true
+  subtitle : "Equipo"
+  title : "Sobre Nosotros"
   feature_item:
     # feature item loop
-    - name : "Free Trial"
-      image : "images/feature/feature-1.png"
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
-      
-    # feature item loop
-    - name : "No Setup"
-      image : "images/feature/feature-2.png"
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
+    - title : "Mauricio Díaz"
+      image : "images/feature/mauricio-diaz.jpg"
+      content : "CV Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
 
     # feature item loop
-    - name : "Optimized Data"
-      image : "images/feature/feature-3.png"
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
+    - title : "Agustín Desmadryl"
+      image : "images/feature/a-desmadryl.jpg"
+      content : "CV Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
+            
+    # feature item loop
+    - title : "Atilio Aguilar"
+      image : "images/feature/a-aguilar.jpg"
+      content : "CV Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
+
 
 ##################################### About #############################
 about:
   enable : true
   about_item:
     # about item loop
-    - image : "images/about/about-1.png"
-      subtitle : "about agico"
-      title : "Eausmod tempor magna nostrud exercitation"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
-              exercitation ullamco laboris nisi aliquip commodo consequat. duis aute."
+    - image : "images/about/isometric.png"
+      subtitle : "Sobre Capital Power"
+      title : "Ahorre dinero obteniendo el mejor precio"
+      content : "Energía comercial para sus contratos comerciales de electricidad y gas"
       button:
-        enable : true
+        enable : false
         label : "read more"
         link : "about"
 
@@ -73,44 +75,30 @@ promo_video:
 
 # testimonial
 testimonial:
-  enable : false
-  subtitle : "testimonial"
-  title : "What Our Clients Says?"
+  enable : true
+  subtitle : ""
+  title : "Servicios"
   testimonial_item:
     # testimonial item loop
     - name : "Alice kelly"
-      designation : "Happy client"
-      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
-            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
-            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+      img : "images/feature/service-01.png"
+      content : Gestión de los precios
+                de la electricidad y el gas
+                de su empresa
             
     # testimonial item loop
     - name : "Alice kelly"
-      designation : "Happy client"
-      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
-            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
-            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+      img : "images/feature/service-02.png"
+      content : Asesoramiento energético
+                empresarial en el que
+                puede confiar
             
     # testimonial item loop
     - name : "Alice kelly"
-      designation : "Happy client"
-      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
-            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
-            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
-            
-    # testimonial item loop
-    - name : "Alice kelly"
-      designation : "Happy client"
-      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
-            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
-            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
-            
-    # testimonial item loop
-    - name : "Alice kelly"
-      designation : "Happy client"
-      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
-            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
-            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+      img : "images/feature/service-03.png"
+      content : Nuestro servicio de
+                corredor de
+                energía comercial
 
 ############################## Download ###########################
 download:

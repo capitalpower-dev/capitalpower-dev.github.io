@@ -51,22 +51,19 @@ hasChildren = true
   URL = "changelog"
 
 #Footer menu
-[[footer]]
-name = "Company History"
-URL = "about"
 
 [[footer]]
-name = "About us"
-URL = "about"
+name = "Energía empresarial"
+URL = "#"
 
 [[footer]]
-name = "Contact us"
-URL = "contact"
+name = "Energía hogar"
+URL = "#"
 
 [[footer]]
-name = "Services"
-URL = "service"
+name = "Otros servicios"
+URL = "#"
 
 [[footer]]
-name = "Privacy Policy"
+name = "Sobre nosotros"
 URL = "#"

@@ -244,11 +244,15 @@ section{
 }
 
 .subtitle {
-  text-transform: capitalize;
   font-size: 18px;
   color: $text-color;
   font-family: $primary-font;
   font-weight: 400;
+}
+
+.service-image {
+  height: auto;
+  width: 75%
 }
 
 // section-gap

@@ -15,11 +15,14 @@ banner:
 partner:
   enable : true
   partner_logo:
-  - "images/partner/client-logo-1.png"
-  - "images/partner/client-logo-2.png"
-  - "images/partner/client-logo-3.png"
-  - "images/partner/client-logo-4.png"
-  - "images/partner/client-logo-5.png"
+  - "images/partner/engie.png"
+  - "images/partner/colbun.png"
+  - "images/partner/cerrodominador.png"
+  - "images/partner/ame.png"
+  - "images/partner/edf.png"
+  - "images/partner/enel.png"
+  - "images/partner/pacifichydro.png"
+  - "images/partner/gpg.png"
 
 ################################ Features ###############################
 feature:
