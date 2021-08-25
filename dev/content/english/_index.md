@@ -55,7 +55,7 @@ about:
     - image : "images/about/isometric.png"
       subtitle : "Sobre Capital Power"
       title : "Ahorre dinero obteniendo el mejor precio"
-      content : "Energía comercial para sus contratos comerciales de electricidad y gas."
+      content : "Energía comercial para sus contratos comerciales de electricidad y gas"
       button:
         enable : false
         label : "read more"
