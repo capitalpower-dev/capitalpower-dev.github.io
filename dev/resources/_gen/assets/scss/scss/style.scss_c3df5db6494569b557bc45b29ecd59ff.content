@@ -550,7 +550,7 @@ section {
 /* /list style */
 /* page title */
 .page-title {
-  padding: 220px 0 100px; }
+  padding: 170px 0 50px; }
   .page-title-overlay {
     position: relative; }
     .page-title-overlay::before {
