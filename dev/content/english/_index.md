@@ -14,7 +14,7 @@ banner:
 
 ############################## Partners #################################
 partner:
-  enable : true
+  enable : false
   partner_logo:
   - "images/partner/engie.png"
   - "images/partner/colbun.png"
@@ -27,7 +27,7 @@ partner:
 
 ################################ Features ###############################
 feature:
-  enable : true
+  enable : false
   subtitle : "Equipo"
   title : "Sobre Nosotros"
   feature_item:
@@ -55,7 +55,7 @@ about:
     - image : "images/about/isometric.png"
       subtitle : "Sobre Capital Power"
       title : "Ahorre dinero obteniendo el mejor precio"
-      content : "Energía comercial para sus contratos comerciales de electricidad y gas"
+      content : "Energía comercial para sus contratos comerciales de electricidad y gas."
       button:
         enable : false
         label : "read more"
@@ -82,23 +82,17 @@ testimonial:
     # testimonial item loop
     - name : "Alice kelly"
       img : "images/feature/service-01.png"
-      content : Gestión de los precios
-                de la electricidad y el gas
-                de su empresa
+      content : Buscamos las mejores opciones de suministro eléctrico para nuestros clientes
             
     # testimonial item loop
     - name : "Alice kelly"
       img : "images/feature/service-02.png"
-      content : Asesoramiento energético
-                empresarial en el que
-                puede confiar
+      content : Invitamos a nuestros clientes a un proceso ágil, simple y con el menor costo del mercado
             
     # testimonial item loop
     - name : "Alice kelly"
       img : "images/feature/service-03.png"
-      content : Nuestro servicio de
-                corredor de
-                energía comercial
+      content : Liberamos a nuestros clientes de compromisos, exclusividades o anticipos
 
 ############################## Download ###########################
 download:

@@ -1,69 +1,34 @@
 ############# English navigation ##############
 # main menu    
 [[main]]
-name = "About"
-URL = "about"
+name = "Energía Empresarial"
+URL = "energia-empresarial"
 weight = 2
   
 [[main]]
-name = "Service"
-URL = "service"
+name = "Nosotros"
+URL = "nosotros"
 weight = 3
 
 [[main]]
-name = "Blog"
-URL = "blog"
-weight = 4
-
-[[main]]
-name = "Contact"
-URL = "contact"
+name = "Contacto"
+URL = "contacto"
 weight = 5
 
-[[main]]
-weight = 6
-name = "Pages"
-hasChildren = true
-
-  [[main]]
-  parent = "Pages"
-  name = "Pricing"
-  URL = "pricing"
-
-  [[main]]
-  parent = "Pages"
-  name = "Career"
-  URL = "career"
-  
-  [[main]]
-  parent = "Pages"
-  name = "Team"
-  URL = "team"
-
-  [[main]]
-  parent = "Pages"
-  name = "FAQ"
-  URL = "faq"
-  
-  [[main]]
-  parent = "Pages"
-  name = "Changelog"
-  URL = "changelog"
 
 #Footer menu
 
 [[footer]]
-name = "Energía empresarial"
-URL = "#"
+name = "Energía Empresarial"
+URL = "energia-empresarial"
+weight = 1
 
 [[footer]]
-name = "Energía hogar"
-URL = "#"
+name = "Nosotros"
+URL = "nosotros"
+weight = 2
 
 [[footer]]
-name = "Otros servicios"
-URL = "#"
-
-[[footer]]
-name = "Sobre nosotros"
-URL = "#"
+name = "Contacto"
+URL = "contacto"
+weight = 3

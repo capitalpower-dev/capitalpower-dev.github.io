@@ -54,7 +54,7 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <p class="subtitle" data-aos="fade-up">{{ .subtitle }}</p>
-        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">{{ .title }}</h2>
+        <!-- <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">{{ .title }}</h2> -->
       </div>
     </div>
     <div class="row testimonial-slider" data-aos="fade-up" data-aos-delay="200">
@@ -77,7 +77,7 @@
 {{ with .Params.about }}
 {{ if .enable }}
 {{ range $i,$p := .about_item }}
-<section class="section pb-0">
+<section class="section  section-lg-bottom">
   <div class="container">
     <div class="row align-items-center">
       {{ if not (modBool $i 2)}}
@@ -120,7 +120,7 @@
 {{"<!-- feature -->"| safeHTML}}
 {{ with .Params.feature }}
 {{ if .enable }}
-<section class="section section-lg-bottom">
+<section class="section">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
