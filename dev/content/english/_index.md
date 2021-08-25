@@ -2,7 +2,7 @@
 ############################### Banner #################################
 banner:
   enable : true
-  bg_image : "images/background/capital-power-chile.png"
+  bg_image : "images/background/capital-power-chile1.png"
   title : "Reduzca su factura de energía"
   watermark : "Capital Power"
   content : "Te mostraremos cómo"
@@ -10,7 +10,7 @@ banner:
   button:
     enable : true
     label : "Saber más"
-    link : "#"
+    link : "energia-empresarial"
 
 ############################## Partners #################################
 partner:
@@ -82,17 +82,17 @@ testimonial:
     # testimonial item loop
     - name : "Alice kelly"
       img : "images/feature/service-01.png"
-      content : Buscamos las mejores opciones de suministro eléctrico para nuestros clientes
+      content : Buscamos las mejores opciones de suministro eléctrico para nuestros clientes.
             
     # testimonial item loop
     - name : "Alice kelly"
       img : "images/feature/service-02.png"
-      content : Invitamos a nuestros clientes a un proceso ágil, simple y con el menor costo del mercado
+      content : Los invitamos a un proceso ágil, simple y con el menor costo del mercado.
             
     # testimonial item loop
     - name : "Alice kelly"
       img : "images/feature/service-03.png"
-      content : Liberamos a nuestros clientes de compromisos, exclusividades o anticipos
+      content : Liberamos a nuestros clientes de compromisos, exclusividades o anticipos.
 
 ############################## Download ###########################
 download:

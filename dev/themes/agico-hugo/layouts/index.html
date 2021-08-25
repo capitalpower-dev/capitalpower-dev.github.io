@@ -3,7 +3,7 @@
 {{"<!-- banner -->"| safeHTML}}
 {{ with .Params.banner }}
 {{ if .enable }}
-<section class="hero-area bg-cover" data-background="{{ .bg_image | absURL }}">
+<section class="hero-area bg-cover bg-slide" data-background="{{ .bg_image | absURL }}">
   <div class="container">
     <div class="row align-items-center justify-content-between mb-5">
       <div class="col-lg-6 pl-lg-0 text-center text-lg-left mb-5">
@@ -24,6 +24,9 @@
 {{ end }}
 {{ end }}
 {{"<!-- /banner -->"| safeHTML}}
+<div style="background-image: url(images/background/capital-power-chile2.png);"></div>
+<div style="background-image: url(images/background/capital-power-chile3.png);"></div>
+<div style="background-image: url(images/background/capital-power-chile4.png);"></div>
 
 
 {{"<!-- partner -->"| safeHTML}}
@@ -62,6 +65,7 @@
       <div class="col-lg-4">
         <div class="card px-4 py-5 border-0 rounded-lg shadow text-center card-border-bottom mb-5 mt-3 align-items-center">
           <img src="{{ .img | absURL }}" class="p-5 service-image" alt="service-image">
+          <!-- <h3 class="section-title" data-aos="fade-up" data-aos-delay="100">{{ .name }}</h3> -->
           <p class="mb-4">{{ .content | markdownify }}</p>
         </div>
       </div>

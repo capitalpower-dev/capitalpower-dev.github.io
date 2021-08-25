@@ -24,6 +24,14 @@
   }
 }
 
+.bg-slide{
+    -webkit-transition:all 1s ease-in;
+    -moz-transition:all 1s ease-in;
+    -o-transition:all 1s ease-in;
+    -ms-transition:all 1s ease-in;
+    transition:all 1s ease-in;
+}
+
 .watermark {
   position: absolute;
   opacity: 0.07;

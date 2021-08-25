@@ -25,6 +25,32 @@
     });
   });
 
+  $(document).ready(function() {
+    $('[data-background]').delay(100).queue(function(){
+      var count = 1;
+      function transition() {
+          if(count == 1) {
+            console.log(count);
+            $('[data-background]').css({"background-image":"url(images/background/capital-power-chile2.png)"});
+              count = 2;
+          } else if(count == 2) {
+            console.log(count);
+            $('[data-background]').css({"background-image":"url(images/background/capital-power-chile3.png)"});
+              count = 3;
+          } else if(count == 3) {
+            console.log(count);
+            $('[data-background]').css({"background-image":"url(images/background/capital-power-chile4.png)"});
+            count = 4;
+          } else if(count == 4) {
+            console.log(count);
+            $('[data-background]').css({"background-image":"url(images/background/capital-power-chile1.png)"});
+            count = 1;
+          }
+      }
+      setInterval(transition, 6000);
+    });
+  });
+
   // venobox popup 
   $('.venobox').venobox();
 
