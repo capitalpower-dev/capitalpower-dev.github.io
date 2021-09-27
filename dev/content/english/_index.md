@@ -53,9 +53,9 @@ about:
   about_item:
     # about item loop
     - image : "images/about/isometric.png"
-      subtitle : "Sobre Capital Power"
-      title : "Ahorre dinero obteniendo el mejor precio"
-      content : "Energía comercial para sus contratos comerciales de electricidad y gas"
+      subtitle : "Capital Power"
+      title : "Ahorra dinero obteniendo tu energía al mejor precio"
+      content : "En CapitalPower ponemos a tu disposición más de 20 años de experiencia en la industria eléctrica y alianzas con los principales generadores del país, para que puedas contratar tu suministro eléctrico al mejor precio del mercado."
       button:
         enable : false
         label : "read more"

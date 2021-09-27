@@ -6,7 +6,7 @@ URL = "energia-empresarial"
 weight = 2
   
 [[main]]
-name = "Nosotros"
+name = "Equipo"
 URL = "nosotros"
 weight = 3
 

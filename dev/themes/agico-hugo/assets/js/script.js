@@ -31,19 +31,19 @@
       function transition() {
           if(count == 1) {
             console.log(count);
-            $('[data-background]').css({"background-image":"url(images/background/capital-power-chile2.png)"});
+            $('[data-background]').css({"background-image":"url(../images/background/capital-power-chile2.png)"});
               count = 2;
           } else if(count == 2) {
             console.log(count);
-            $('[data-background]').css({"background-image":"url(images/background/capital-power-chile3.png)"});
+            $('[data-background]').css({"background-image":"url(../images/background/capital-power-chile3.png)"});
               count = 3;
           } else if(count == 3) {
             console.log(count);
-            $('[data-background]').css({"background-image":"url(images/background/capital-power-chile4.png)"});
+            $('[data-background]').css({"background-image":"url(../images/background/capital-power-chile4.png)"});
             count = 4;
           } else if(count == 4) {
             console.log(count);
-            $('[data-background]').css({"background-image":"url(images/background/capital-power-chile1.png)"});
+            $('[data-background]').css({"background-image":"url(../images/background/capital-power-chile1.png)"});
             count = 1;
           }
       }
