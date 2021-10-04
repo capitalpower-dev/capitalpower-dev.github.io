@@ -10,7 +10,7 @@ banner:
   button:
     enable : true
     label : "Saber más"
-    link : "energia-empresarial"
+    link : "#saber-mas"
 
 ############################## Partners #################################
 partner:
