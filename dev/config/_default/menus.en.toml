@@ -1,34 +1,54 @@
 ############# English navigation ##############
 # main menu    
 [[main]]
-name = "Energía Empresarial"
-URL = "energia-empresarial"
+name = "Experiencia"
+URL = "experiencia"
 weight = 2
+
+[[main]]
+name = "Otros Servicios"
+URL = "otros-servicios"
+weight = 3
+
+[[main]]
+name = "Cómo Funciona"
+URL = "como-funciona"
+weight = 4
   
 [[main]]
 name = "Equipo"
-URL = "nosotros"
-weight = 3
+URL = "equipo"
+weight = 5
 
 [[main]]
 name = "Contacto"
 URL = "contacto"
-weight = 5
+weight = 6
 
 
 #Footer menu
 
 [[footer]]
-name = "Energía Empresarial"
-URL = "energia-empresarial"
+name = "Experiencia"
+URL = "experiencia"
 weight = 1
 
 [[footer]]
-name = "Nosotros"
-URL = "nosotros"
+name = "Otros Servicios"
+URL = "otros-servicios"
 weight = 2
+
+[[footer]]
+name = "Cómo Funciona"
+URL = "como-funciona"
+weight = 3
+
+[[footer]]
+name = "Equipo"
+URL = "equipo"
+weight = 4
 
 [[footer]]
 name = "Contacto"
 URL = "contacto"
-weight = 3
+weight = 5

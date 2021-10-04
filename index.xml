@@ -9,24 +9,6 @@
     <copyright>© 2021 CapitalPower. Todos los derechos reservados.</copyright>
     <lastBuildDate>Wed, 10 Apr 2019 09:51:57 +0600</lastBuildDate><atom:link href="https://capitalpower-dev.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>FAQ</title>
-      <link>https://capitalpower-dev.github.io/faq/</link>
-      <pubDate>Fri, 05 Jun 2020 15:04:04 +0200</pubDate>
-      
-      <guid>https://capitalpower-dev.github.io/faq/</guid>
-      <description>Skill based Gaming or Gambling? What is the difference between gaming and gambling?</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://capitalpower-dev.github.io/contact/</link>
-      <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      
-      <guid>https://capitalpower-dev.github.io/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Cupidat non proident sunt officia deserunt mollit anim.</title>
       <link>https://capitalpower-dev.github.io/blog/cupidat-non-proident.1/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
@@ -117,15 +99,6 @@
     </item>
     
     <item>
-      <title>Search Result</title>
-      <link>https://capitalpower-dev.github.io/search/</link>
-      <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      
-      <guid>https://capitalpower-dev.github.io/search/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Web Project Manager - Team of PHP MySQL Developers</title>
       <link>https://capitalpower-dev.github.io/career/web-project-manager.1/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
@@ -171,15 +144,6 @@
     </item>
     
     <item>
-      <title>About Us</title>
-      <link>https://capitalpower-dev.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://capitalpower-dev.github.io/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Changelog</title>
       <link>https://capitalpower-dev.github.io/changelog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -199,49 +163,41 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
     </item>
     
     <item>
-      <title>Energía Empresarial</title>
-      <link>https://capitalpower-dev.github.io/energia-empresarial/</link>
+      <title>Cómo Funciona</title>
+      <link>https://capitalpower-dev.github.io/como-funciona/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://capitalpower-dev.github.io/energia-empresarial/</guid>
-      <description>Subítitulo
-Título contenidoLorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+      <guid>https://capitalpower-dev.github.io/como-funciona/</guid>
+      <description>¿En qué consiste nuestro servicio?Buscamos las mejores ofertas de suministro eléctrico para clientes libres, através de un proceso ágil y transparente.</description>
     </item>
     
     <item>
       <title>Equipo</title>
-      <link>https://capitalpower-dev.github.io/nosotros/</link>
+      <link>https://capitalpower-dev.github.io/equipo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://capitalpower-dev.github.io/nosotros/</guid>
+      <guid>https://capitalpower-dev.github.io/equipo/</guid>
       <description>CapitalPower es el primer bróker de energía en Chile, creado con una visión claraGestionar para nuestros clientes las mejores condiciones de suministro eléctrico del mercado, sin complejidad y al menor costo.</description>
     </item>
     
     <item>
-      <title>Our Pricing</title>
-      <link>https://capitalpower-dev.github.io/pricing/</link>
+      <title>Experiencia</title>
+      <link>https://capitalpower-dev.github.io/experiencia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://capitalpower-dev.github.io/pricing/</guid>
-      <description></description>
+      <guid>https://capitalpower-dev.github.io/experiencia/</guid>
+      <description>Energía licitada para
+nuestros clientes+0
+GWh&#34;</description>
     </item>
     
     <item>
-      <title>Our Service</title>
-      <link>https://capitalpower-dev.github.io/service/</link>
+      <title>Otros Servicios</title>
+      <link>https://capitalpower-dev.github.io/otros-servicios/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://capitalpower-dev.github.io/service/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Our Team</title>
-      <link>https://capitalpower-dev.github.io/team/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://capitalpower-dev.github.io/team/</guid>
-      <description></description>
+      <guid>https://capitalpower-dev.github.io/otros-servicios/</guid>
+      <description>GoldenOak es una empresa líderen el mercado de la generaciónsolar distribuida, dedicada aldiseño, financiamiento,construcción y operación deplantas solares de escalaPMGD/Comercial y Residencial.</description>
     </item>
     
   </channel>

@@ -13,7 +13,7 @@ image = "images/logo-capital-power.png" # this image will be used as fallback if
 # contact info
 address = "Av. Américo Vespucio Norte 2700, of 901, Vitacura, Santiago de Chile"
 mobile = "+211234565523"
-email = "contact@capitalpower.cl"
+email = "contacto@capitalpower.cl"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs

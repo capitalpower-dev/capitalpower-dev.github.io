@@ -739,7 +739,7 @@ textarea.form-control {
     color: #242f3e; }
 
 .navbar .nav-item .nav-link {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   padding: 20px 22px;
   font-family: "Poppins", sans-serif;
@@ -1093,7 +1093,8 @@ textarea.form-control {
   .team-member:hover .team-member-designation {
     transform: translateY(0);
     opacity: 1;
-    transition-delay: .1s; }
+    transition-delay: .1s;
+    font-size: 20px; }
   .team-member:hover .team-member-social {
     opacity: 1;
     visibility: visible;
@@ -1112,7 +1113,8 @@ textarea.form-control {
       height: 0;
       width: 100%;
       transition: .5s ease;
-      background: linear-gradient(134deg, #fff 0%, #2a2a2a 100%);
+      background: #383838 !important;
+      opacity: 50%;
       bottom: 0;
       border-radius: 10px;
       left: 0;
@@ -1131,7 +1133,7 @@ textarea.form-control {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -10%;
+    top: 70px;
     opacity: 0;
     visibility: hidden;
     transition: .3s ease;
@@ -1143,6 +1145,40 @@ textarea.form-control {
 .team-member p {
   font-size: 13px;
   height: 200px; }
+
+.team-member p {
+  font-size: 13px;
+  height: 180px; }
+  @media (max-width: 575px) {
+    .team-member p {
+      height: unset !important; } }
+.atilio-height {
+  line-height: 19px; }
+  @media (max-width: 575px) {
+    .atilio-height {
+      line-height: 1.6 !important; } }
+@media (max-width: 575px) {
+  .registrate-mobile {
+    color: #fff; } }
+
+.cita-experiencia {
+  font-size: 16px;
+  font-style: italic; }
+
+.citado-experiencia {
+  text-align: right !important;
+  font-size: 14px;
+  font-weight: 800; }
+
+.bg-otros-servicios {
+  background-image: url("../images/otros-servicios/bg.jpg");
+  background-position: center;
+  background-size: 100%;
+  height: 300px;
+  background-repeat: no-repeat; }
+
+.opacity-50 {
+  background-color: #f8f9fa6b !important; }
 
 /* sidebar */
 .widget {

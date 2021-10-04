@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://capitalpower-dev.github.io/faq/</loc>
-    <lastmod>2020-06-05T15:04:04+02:00</lastmod>
-  </url><url>
     <loc>https://capitalpower-dev.github.io/</loc>
     <lastmod>2019-04-10T09:51:57+06:00</lastmod>
     <xhtml:link
@@ -108,9 +105,6 @@
                 hreflang="en"
                 href="https://capitalpower-dev.github.io/tags/consultancy/"
                 />
-  </url><url>
-    <loc>https://capitalpower-dev.github.io/contact/</loc>
-    <lastmod>2019-04-10T09:51:57+06:00</lastmod>
   </url><url>
     <loc>https://capitalpower-dev.github.io/blog/cupidat-non-proident.1/</loc>
     <lastmod>2019-04-10T09:51:57+06:00</lastmod>
@@ -320,9 +314,6 @@
                 href="https://capitalpower-dev.github.io/tags/marketing/"
                 />
   </url><url>
-    <loc>https://capitalpower-dev.github.io/search/</loc>
-    <lastmod>2019-04-10T09:51:57+06:00</lastmod>
-  </url><url>
     <loc>https://capitalpower-dev.github.io/tags/</loc>
     <lastmod>2019-04-10T09:51:57+06:00</lastmod>
     <xhtml:link
@@ -427,20 +418,16 @@
                 href="https://capitalpower-dev.github.io/career/web-project-manager.5/"
                 />
   </url><url>
-    <loc>https://capitalpower-dev.github.io/about/</loc>
-  </url><url>
     <loc>https://capitalpower-dev.github.io/changelog/</loc>
   </url><url>
     <loc>https://capitalpower-dev.github.io/contacto/</loc>
   </url><url>
-    <loc>https://capitalpower-dev.github.io/energia-empresarial/</loc>
+    <loc>https://capitalpower-dev.github.io/como-funciona/</loc>
   </url><url>
-    <loc>https://capitalpower-dev.github.io/nosotros/</loc>
+    <loc>https://capitalpower-dev.github.io/equipo/</loc>
   </url><url>
-    <loc>https://capitalpower-dev.github.io/pricing/</loc>
+    <loc>https://capitalpower-dev.github.io/experiencia/</loc>
   </url><url>
-    <loc>https://capitalpower-dev.github.io/service/</loc>
-  </url><url>
-    <loc>https://capitalpower-dev.github.io/team/</loc>
+    <loc>https://capitalpower-dev.github.io/otros-servicios/</loc>
   </url>
 </urlset>
