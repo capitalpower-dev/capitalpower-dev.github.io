@@ -7,7 +7,7 @@ apple_touch_icon = "images/favicon.ico"
 # logo
 logo = "images/logo-capital-power.png"
 # OpenGraph / Twitter Card metadata
-description = "This is meta description"
+description = "Capital Power - El primer energy broker de Chile"
 author = "Capital Power"
 image = "images/logo-capital-power.png" # this image will be used as fallback if a page has no image of its own
 # contact info
