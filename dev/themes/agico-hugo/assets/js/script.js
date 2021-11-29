@@ -26,6 +26,7 @@
   });
 
   $(document).ready(function() {
+    counter();
     $('[data-background]').delay(100).queue(function(){
       var count = 1;
       function transition() {
@@ -57,29 +58,31 @@
       oTop = $('.counter').offset().top - window.innerHeight;
     }
     if ($(window).scrollTop() > oTop) {
-      $('.counter').each(function () {
+      $('.counter').each(function() {
         var $this = $(this),
-          countTo = $this.attr('data-count');
+          countTo = $this.attr('data-count').replace(/,/g, '');
+      
         $({
           countNum: $this.text()
         }).animate({
           countNum: countTo
         }, {
-          duration: 2000,
-          easing: 'swing',
-          step: function () {
-            $this.text(Math.floor(this.countNum));
+          duration: 8000,
+          easing: 'linear',
+          step: function() {
+            $this.text(numberWithCommas(Math.floor(this.countNum)));
           },
-          complete: function () {
-            $this.text(this.countNum);
+          complete: function() {
+            $this.text(numberWithCommas(this.countNum));
           }
         });
       });
     }
   }
-  $(window).on('scroll', function () {
-    counter();
-  });
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+}
 
 
   // testimonial
